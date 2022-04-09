@@ -12,7 +12,7 @@ contract MyToken is ERC20, ERC20Burnable, Ownable {
         _mint(to, amount);
     }
 
-    function buy(uint256 amount) public {
-        _mint(msg.sender, amount);
+    function sell(address from, uint256 amount) public onlyOwner {
+        _burn(from, amount);
     }
 }
