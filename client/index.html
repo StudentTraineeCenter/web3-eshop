@@ -10,10 +10,12 @@
     <br/>
 
     <h2>Buy or sell tokens</h2>
-    <p></p>
+    <p id="balance"></p>
     <form id="form">
-        <input id="buy" type="button" value="buy"/>
-        <input id="sell" type="button" value="sell"/>
+        <label for="tokens">How many tokens you want to use?</label>
+        <input id="tokens" name="tokens" type="number" min="0" max="" style="width: 30px;"/>
+        <input id="buy" type="button" value="buy for 0.01 ETH"/>
+        <input id="sell" type="button" value="buy with tokens"/>
     </form>
 
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
