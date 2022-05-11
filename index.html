@@ -7,13 +7,12 @@
 </head>
 <body>
     <h1>Web3 e-shop demo</h1>
-    <br/>
-
-    <h2>Buy or sell tokens</h2>
     <p id="balance"></p>
+    <p id="products"></p>
+    <h2>Buy product:</h2>
     <form id="form">
         <label for="tokens">How many tokens you want to use?</label>
-        <input id="tokens" name="tokens" type="number" min="0" max="" style="width: 30px;"/>
+        <input id="tokens" name="tokens" type="number" min="1" max="" value="1" style="width: 30px;"/>
         <input id="buy" type="button" value="buy for 0.01 ETH"/>
         <input id="sell" type="button" value="buy with tokens"/>
     </form>
