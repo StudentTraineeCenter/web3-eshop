@@ -2,7 +2,7 @@ const express = require("express");
 const Web3 = require("web3");
 const fs = require("node:fs");
 
-const contractData = require("./build/MyToken.json");
+const contractData = require("./build/contracts/MyToken.json");
 const { publicKey, privateKey } = require("./owner.json");
 
 
