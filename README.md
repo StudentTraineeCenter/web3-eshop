@@ -1,5 +1,5 @@
 # WEB3 ESHOP
-Simple Web3 application. You can try it out [here](https://web3-eshop-client.azurewebsites.net) or read article on [suduj.digital](https://studuj.digital/?p=24316) blog.
+Simple Web3 application, where you can buy products for Ethereum and recive token which you can use to lower the price by 10%. You can try it out [here](https://web3-eshop-client.azurewebsites.net) or read article on [suduj.digital](https://studuj.digital/?p=24316) blog.
 
 ## Dependencies
 - [Truffle](https://trufflesuite.com/truffle/)
