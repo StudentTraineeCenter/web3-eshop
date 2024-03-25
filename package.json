@@ -12,6 +12,6 @@
   "devDependencies": {
     "express": "^4.17.3",
     "jquery": "^3.6.0",
-    "web3": "^1.8.1"
+    "web3": "^4.6.0"
   }
 }
